@@ -13,7 +13,8 @@ public class Armstrong {
 
         temp = n;
         // Calculate sum of digits raised to the power of number of digits
-        while (temp != 0)R {
+        while (temp != 0)
+        {
             int d = temp % 10;
             sum += Math.pow(d, digits);
             temp /= 10;
